@@ -1,5 +1,15 @@
+import Counter from "./Counter"
+import CounterHooks from "./CounterHooks"
+
 function App() {
-  return <h1>LETz</h1>
+  return (
+    <>
+      Counter
+      <Counter initialCount={0} />
+      Counter Hooks
+      <CounterHooks initialCount={0}/>
+    </>
+  )
 }
 
-export default App;
+export default App
